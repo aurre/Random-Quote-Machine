@@ -1,0 +1,27 @@
+{
+  "name": "random-quote-machine",
+  "version": "1.0.0",
+  "description": "This is one of my intermediate Front End Development Projects from Free Code Camp",
+  "main": "main.js",
+  "scripts": {
+    "test": "testem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurre/Random-Quote-Machine.git"
+  },
+  "keywords": [
+    "random",
+    "quotes"
+  ],
+  "author": "Raysa Aurrecochea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aurre/Random-Quote-Machine/issues"
+  },
+  "homepage": "https://github.com/aurre/Random-Quote-Machine#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1"
+  }
+}
