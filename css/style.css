@@ -1,5 +1,5 @@
-body {
-    background-color: tomato!important;
+#body {
+    background-color: tomato;
 
 }
 
@@ -32,7 +32,7 @@ blockquote {
     line-height: 1.45;
     position: relative;
     color: #383838;
-    text-align: center;
+    /* text-align: center; */
 }
     
 blockquote:before {
@@ -63,12 +63,12 @@ blockquote:before {
 
 .fa-twitter {
     background: tomato;
-    color: white;
+    color: black!important;
 }
 
 .fa-tumblr {
     background: tomato;
-    color: white;
+    color: black!important;
 }
 
 
@@ -79,5 +79,9 @@ blockquote:before {
 
 .container-fluid {
     text-align: center;
-   
+    position: static;
+}
+
+.container-fluid > p {
+    color: black;
 }

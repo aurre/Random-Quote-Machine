@@ -22,7 +22,10 @@
   "homepage": "https://github.com/aurre/Random-Quote-Machine#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "jquery-color-animation": "^1.5.1"
   }
 }
