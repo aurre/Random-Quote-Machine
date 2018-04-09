@@ -1,5 +1,8 @@
 const colors = ['#42bcf4', '#95f441', '#f47041', '#db4c62', '#897fa5', '#d3aded', '#cbe5b0', '#608265' ];
 
+function openUrl(url) {
+    window.open(url, 'Share', 'width=550, height=400');
+}
 let currentQuote;
 let currentAuthor;
 function getRandomColor(arr) {
@@ -50,6 +53,9 @@ function getQuote() {
                 backgroundColor: color
             }, 1000)
 
+            $('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + currentQuote + '"' + currentAuthor));
+
+            $('#tumblr-quote').attr('href', 'https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption='+encodeURIComponent(currentAuthor) + '&content=' + encodeURIComponent(currentQuote) + '&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button');
         }
     })
 }
